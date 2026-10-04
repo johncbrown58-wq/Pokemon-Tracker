@@ -1,5 +1,95 @@
 [
   {
+    "id": "extra-base1-96",
+    "name": "Double Colorless",
+    "set": "base1",
+    "setName": "Base",
+    "number": "96",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/base1/96.png"
+  },
+  {
+    "id": "extra-base1-97",
+    "name": "Fighting",
+    "set": "base1",
+    "setName": "Base",
+    "number": "97",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/base1/97.png"
+  },
+  {
+    "id": "extra-base1-98",
+    "name": "Fire",
+    "set": "base1",
+    "setName": "Base",
+    "number": "98",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/base1/98.png"
+  },
+  {
+    "id": "extra-base1-99",
+    "name": "Grass",
+    "set": "base1",
+    "setName": "Base",
+    "number": "99",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/base1/99.png"
+  },
+  {
+    "id": "extra-base1-100",
+    "name": "Lightning",
+    "set": "base1",
+    "setName": "Base",
+    "number": "100",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/base1/100.png"
+  },
+  {
+    "id": "extra-base1-101",
+    "name": "Psychic",
+    "set": "base1",
+    "setName": "Base",
+    "number": "101",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/base1/101.png"
+  },
+  {
+    "id": "extra-base1-102",
+    "name": "Water",
+    "set": "base1",
+    "setName": "Base",
+    "number": "102",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/base1/102.png"
+  },
+  {
+    "id": "extra-base5-17",
+    "name": "Rainbow Energy",
+    "set": "base5",
+    "setName": "Team Rocket",
+    "number": "17",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/base5/17.png"
+  },
+  {
+    "id": "extra-base5-81",
+    "name": "Full Heal Energy",
+    "set": "base5",
+    "setName": "Team Rocket",
+    "number": "81",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/base5/81.png"
+  },
+  {
+    "id": "extra-base5-82",
+    "name": "Potion Energy",
+    "set": "base5",
+    "setName": "Team Rocket",
+    "number": "82",
+    "category": "Energy",
+    "image": "https://images.pokemontcg.io/base5/82.png"
+  },
+  {
     "id": "extra-base1-70",
     "name": "Clefairy Doll",
     "set": "base1",
@@ -234,69 +324,6 @@
     "image": "https://images.pokemontcg.io/base1/95.png"
   },
   {
-    "id": "extra-base1-96",
-    "name": "Double Colorless",
-    "set": "base1",
-    "setName": "Base",
-    "number": "96",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/base1/96.png"
-  },
-  {
-    "id": "extra-base1-97",
-    "name": "Fighting",
-    "set": "base1",
-    "setName": "Base",
-    "number": "97",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/base1/97.png"
-  },
-  {
-    "id": "extra-base1-98",
-    "name": "Fire",
-    "set": "base1",
-    "setName": "Base",
-    "number": "98",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/base1/98.png"
-  },
-  {
-    "id": "extra-base1-99",
-    "name": "Grass",
-    "set": "base1",
-    "setName": "Base",
-    "number": "99",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/base1/99.png"
-  },
-  {
-    "id": "extra-base1-100",
-    "name": "Lightning",
-    "set": "base1",
-    "setName": "Base",
-    "number": "100",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/base1/100.png"
-  },
-  {
-    "id": "extra-base1-101",
-    "name": "Psychic",
-    "set": "base1",
-    "setName": "Base",
-    "number": "101",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/base1/101.png"
-  },
-  {
-    "id": "extra-base1-102",
-    "name": "Water",
-    "set": "base1",
-    "setName": "Base",
-    "number": "102",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/base1/102.png"
-  },
-  {
     "id": "extra-base2-64",
     "name": "Poké Ball",
     "set": "base2",
@@ -448,42 +475,6 @@
     "number": "79",
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/base5/79.png"
-  },
-  {
-    "id": "extra-base5-17",
-    "name": "Rainbow Energy",
-    "set": "base5",
-    "setName": "Team Rocket",
-    "number": "17",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/base5/17.png"
-  },
-  {
-    "id": "extra-base5-80",
-    "name": "Rainbow Energy",
-    "set": "base5",
-    "setName": "Team Rocket",
-    "number": "80",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/base5/80.png"
-  },
-  {
-    "id": "extra-base5-81",
-    "name": "Full Heal Energy",
-    "set": "base5",
-    "setName": "Team Rocket",
-    "number": "81",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/base5/81.png"
-  },
-  {
-    "id": "extra-base5-82",
-    "name": "Potion Energy",
-    "set": "base5",
-    "setName": "Team Rocket",
-    "number": "82",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/base5/82.png"
   },
   {
     "id": "extra-gym1-97",
@@ -754,60 +745,6 @@
     "number": "126",
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/gym1/126.png"
-  },
-  {
-    "id": "extra-gym1-127",
-    "name": "Fighting",
-    "set": "gym1",
-    "setName": "Gym Heroes",
-    "number": "127",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/gym1/127.png"
-  },
-  {
-    "id": "extra-gym1-128",
-    "name": "Fire",
-    "set": "gym1",
-    "setName": "Gym Heroes",
-    "number": "128",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/gym1/128.png"
-  },
-  {
-    "id": "extra-gym1-129",
-    "name": "Grass",
-    "set": "gym1",
-    "setName": "Gym Heroes",
-    "number": "129",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/gym1/129.png"
-  },
-  {
-    "id": "extra-gym1-130",
-    "name": "Lightning",
-    "set": "gym1",
-    "setName": "Gym Heroes",
-    "number": "130",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/gym1/130.png"
-  },
-  {
-    "id": "extra-gym1-131",
-    "name": "Psychic",
-    "set": "gym1",
-    "setName": "Gym Heroes",
-    "number": "131",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/gym1/131.png"
-  },
-  {
-    "id": "extra-gym1-132",
-    "name": "Water",
-    "set": "gym1",
-    "setName": "Gym Heroes",
-    "number": "132",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/gym1/132.png"
   },
   {
     "id": "extra-gym2-17",
@@ -1087,59 +1024,5 @@
     "number": "126",
     "category": "Trainer",
     "image": "https://images.pokemontcg.io/gym2/126.png"
-  },
-  {
-    "id": "extra-gym2-127",
-    "name": "Fighting",
-    "set": "gym2",
-    "setName": "Gym Challenge",
-    "number": "127",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/gym2/127.png"
-  },
-  {
-    "id": "extra-gym2-128",
-    "name": "Fire",
-    "set": "gym2",
-    "setName": "Gym Challenge",
-    "number": "128",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/gym2/128.png"
-  },
-  {
-    "id": "extra-gym2-129",
-    "name": "Grass",
-    "set": "gym2",
-    "setName": "Gym Challenge",
-    "number": "129",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/gym2/129.png"
-  },
-  {
-    "id": "extra-gym2-130",
-    "name": "Lightning",
-    "set": "gym2",
-    "setName": "Gym Challenge",
-    "number": "130",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/gym2/130.png"
-  },
-  {
-    "id": "extra-gym2-131",
-    "name": "Psychic",
-    "set": "gym2",
-    "setName": "Gym Challenge",
-    "number": "131",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/gym2/131.png"
-  },
-  {
-    "id": "extra-gym2-132",
-    "name": "Water",
-    "set": "gym2",
-    "setName": "Gym Challenge",
-    "number": "132",
-    "category": "Energy",
-    "image": "https://images.pokemontcg.io/gym2/132.png"
   }
 ]
