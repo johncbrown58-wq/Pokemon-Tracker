@@ -6,17 +6,17 @@
 <meta name="theme-color" content="#111827">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Pokémon Tracker">
+<link rel="apple-touch-icon" href="icon.svg">
 <title>Pokémon Card Tracker</title>
 <link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header class="topbar">
-  <div>
-    <h1>Pokémon Card Tracker</h1>
-    <p>Base • Jungle • Fossil</p>
-  </div>
-  <button id="offlineBtn" class="secondary">Prepare Offline</button>
+  <div class="brand"><img src="icon.svg" alt="" class="app-icon"><div><h1>Pokémon Card Tracker</h1><p>Base • Jungle • Fossil</p></div></div>
+  <button id="marketBtn" class="secondary">Market Mode</button>
 </header>
 <main>
   <section class="dashboard">
@@ -24,8 +24,15 @@
     <div class="stat"><strong id="totalCount">0</strong><span>Total</span></div>
     <div class="stat"><strong id="percent">0%</strong><span>Complete</span></div>
   </section>
+  <section id="setProgress" class="set-progress"></section>
   <section class="controls">
-    <input id="search" type="search" placeholder="Search Pokémon or Dex #">
+    <input id="search" type="search" placeholder="Search Pokémon or Dex #" autocomplete="off">
+    <div class="action-row">
+      <button id="offlineBtn" class="secondary">Prepare Offline</button>
+      <button id="backupBtn" class="secondary">Backup</button>
+      <button id="restoreBtn" class="secondary">Restore</button>
+      <input id="restoreInput" type="file" accept="application/json,.json" hidden>
+    </div>
     <div class="filters">
       <button data-filter="all" class="active">All</button>
       <button data-filter="missing">Missing</button>
@@ -33,10 +40,10 @@
     </div>
     <div id="setTabs" class="filters"></div>
   </section>
-  <div id="status" class="status">Loading your card list…</div>
+  <div id="status" class="status">Loading your card catalog…</div>
   <section id="grid" class="grid"></section>
 </main>
-<footer>Ownership is saved on this device. Use “Prepare Offline” while online before heading to a flea market.</footer>
+<footer id="footer">Your collection is saved on this device. Prepare Offline before flea markets.</footer>
 <script src="app.js"></script>
 </body>
 </html>
