@@ -1,0 +1,1703 @@
+[
+  {
+    "id": "base1-44",
+    "name": "Bulbasaur",
+    "dex": 1,
+    "set": "base1",
+    "setName": "Base",
+    "number": "44",
+    "image": "https://images.pokemontcg.io/base1/44.png"
+  },
+  {
+    "id": "base1-30",
+    "name": "Ivysaur",
+    "dex": 2,
+    "set": "base1",
+    "setName": "Base",
+    "number": "30",
+    "image": "https://images.pokemontcg.io/base1/30.png"
+  },
+  {
+    "id": "base1-15",
+    "name": "Venusaur",
+    "dex": 3,
+    "set": "base1",
+    "setName": "Base",
+    "number": "15",
+    "image": "https://images.pokemontcg.io/base1/15.png"
+  },
+  {
+    "id": "base1-46",
+    "name": "Charmander",
+    "dex": 4,
+    "set": "base1",
+    "setName": "Base",
+    "number": "46",
+    "image": "https://images.pokemontcg.io/base1/46.png"
+  },
+  {
+    "id": "base1-24",
+    "name": "Charmeleon",
+    "dex": 5,
+    "set": "base1",
+    "setName": "Base",
+    "number": "24",
+    "image": "https://images.pokemontcg.io/base1/24.png"
+  },
+  {
+    "id": "base1-4",
+    "name": "Charizard",
+    "dex": 6,
+    "set": "base1",
+    "setName": "Base",
+    "number": "4",
+    "image": "https://images.pokemontcg.io/base1/4.png"
+  },
+  {
+    "id": "base1-63",
+    "name": "Squirtle",
+    "dex": 7,
+    "set": "base1",
+    "setName": "Base",
+    "number": "63",
+    "image": "https://images.pokemontcg.io/base1/63.png"
+  },
+  {
+    "id": "base1-42",
+    "name": "Wartortle",
+    "dex": 8,
+    "set": "base1",
+    "setName": "Base",
+    "number": "42",
+    "image": "https://images.pokemontcg.io/base1/42.png"
+  },
+  {
+    "id": "base1-2",
+    "name": "Blastoise",
+    "dex": 9,
+    "set": "base1",
+    "setName": "Base",
+    "number": "2",
+    "image": "https://images.pokemontcg.io/base1/2.png"
+  },
+  {
+    "id": "base1-45",
+    "name": "Caterpie",
+    "dex": 10,
+    "set": "base1",
+    "setName": "Base",
+    "number": "45",
+    "image": "https://images.pokemontcg.io/base1/45.png"
+  },
+  {
+    "id": "base1-54",
+    "name": "Metapod",
+    "dex": 11,
+    "set": "base1",
+    "setName": "Base",
+    "number": "54",
+    "image": "https://images.pokemontcg.io/base1/54.png"
+  },
+  {
+    "id": "base2-33",
+    "name": "Butterfree",
+    "dex": 12,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "33",
+    "image": "https://images.pokemontcg.io/base2/33.png"
+  },
+  {
+    "id": "base1-69",
+    "name": "Weedle",
+    "dex": 13,
+    "set": "base1",
+    "setName": "Base",
+    "number": "69",
+    "image": "https://images.pokemontcg.io/base1/69.png"
+  },
+  {
+    "id": "base1-33",
+    "name": "Kakuna",
+    "dex": 14,
+    "set": "base1",
+    "setName": "Base",
+    "number": "33",
+    "image": "https://images.pokemontcg.io/base1/33.png"
+  },
+  {
+    "id": "base1-17",
+    "name": "Beedrill",
+    "dex": 15,
+    "set": "base1",
+    "setName": "Base",
+    "number": "17",
+    "image": "https://images.pokemontcg.io/base1/17.png"
+  },
+  {
+    "id": "base1-57",
+    "name": "Pidgey",
+    "dex": 16,
+    "set": "base1",
+    "setName": "Base",
+    "number": "57",
+    "image": "https://images.pokemontcg.io/base1/57.png"
+  },
+  {
+    "id": "base1-22",
+    "name": "Pidgeotto",
+    "dex": 17,
+    "set": "base1",
+    "setName": "Base",
+    "number": "22",
+    "image": "https://images.pokemontcg.io/base1/22.png"
+  },
+  {
+    "id": "base2-8",
+    "name": "Pidgeot",
+    "dex": 18,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "8",
+    "image": "https://images.pokemontcg.io/base2/8.png"
+  },
+  {
+    "id": "base2-24",
+    "name": "Pidgeot",
+    "dex": 18,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "24",
+    "image": "https://images.pokemontcg.io/base2/24.png"
+  },
+  {
+    "id": "base1-61",
+    "name": "Rattata",
+    "dex": 19,
+    "set": "base1",
+    "setName": "Base",
+    "number": "61",
+    "image": "https://images.pokemontcg.io/base1/61.png"
+  },
+  {
+    "id": "base1-40",
+    "name": "Raticate",
+    "dex": 20,
+    "set": "base1",
+    "setName": "Base",
+    "number": "40",
+    "image": "https://images.pokemontcg.io/base1/40.png"
+  },
+  {
+    "id": "base2-62",
+    "name": "Spearow",
+    "dex": 21,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "62",
+    "image": "https://images.pokemontcg.io/base2/62.png"
+  },
+  {
+    "id": "base2-36",
+    "name": "Fearow",
+    "dex": 22,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "36",
+    "image": "https://images.pokemontcg.io/base2/36.png"
+  },
+  {
+    "id": "base3-46",
+    "name": "Ekans",
+    "dex": 23,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "46",
+    "image": "https://images.pokemontcg.io/base3/46.png"
+  },
+  {
+    "id": "base3-31",
+    "name": "Arbok",
+    "dex": 24,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "31",
+    "image": "https://images.pokemontcg.io/base3/31.png"
+  },
+  {
+    "id": "base1-58",
+    "name": "Pikachu",
+    "dex": 25,
+    "set": "base1",
+    "setName": "Base",
+    "number": "58",
+    "image": "https://images.pokemontcg.io/base1/58.png"
+  },
+  {
+    "id": "base2-60",
+    "name": "Pikachu",
+    "dex": 25,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "60",
+    "image": "https://images.pokemontcg.io/base2/60.png"
+  },
+  {
+    "id": "base1-14",
+    "name": "Raichu",
+    "dex": 26,
+    "set": "base1",
+    "setName": "Base",
+    "number": "14",
+    "image": "https://images.pokemontcg.io/base1/14.png"
+  },
+  {
+    "id": "base3-14",
+    "name": "Raichu",
+    "dex": 26,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "14",
+    "image": "https://images.pokemontcg.io/base3/14.png"
+  },
+  {
+    "id": "base3-29",
+    "name": "Raichu",
+    "dex": 26,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "29",
+    "image": "https://images.pokemontcg.io/base3/29.png"
+  },
+  {
+    "id": "base1-62",
+    "name": "Sandshrew",
+    "dex": 27,
+    "set": "base1",
+    "setName": "Base",
+    "number": "62",
+    "image": "https://images.pokemontcg.io/base1/62.png"
+  },
+  {
+    "id": "base3-41",
+    "name": "Sandslash",
+    "dex": 28,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "41",
+    "image": "https://images.pokemontcg.io/base3/41.png"
+  },
+  {
+    "id": "base2-57",
+    "name": "Nidoran ♀",
+    "dex": 29,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "57",
+    "image": "https://images.pokemontcg.io/base2/57.png"
+  },
+  {
+    "id": "base2-40",
+    "name": "Nidorina",
+    "dex": 30,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "40",
+    "image": "https://images.pokemontcg.io/base2/40.png"
+  },
+  {
+    "id": "base2-7",
+    "name": "Nidoqueen",
+    "dex": 31,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "7",
+    "image": "https://images.pokemontcg.io/base2/7.png"
+  },
+  {
+    "id": "base2-23",
+    "name": "Nidoqueen",
+    "dex": 31,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "23",
+    "image": "https://images.pokemontcg.io/base2/23.png"
+  },
+  {
+    "id": "base1-55",
+    "name": "Nidoran ♂",
+    "dex": 32,
+    "set": "base1",
+    "setName": "Base",
+    "number": "55",
+    "image": "https://images.pokemontcg.io/base1/55.png"
+  },
+  {
+    "id": "base1-37",
+    "name": "Nidorino",
+    "dex": 33,
+    "set": "base1",
+    "setName": "Base",
+    "number": "37",
+    "image": "https://images.pokemontcg.io/base1/37.png"
+  },
+  {
+    "id": "base1-11",
+    "name": "Nidoking",
+    "dex": 34,
+    "set": "base1",
+    "setName": "Base",
+    "number": "11",
+    "image": "https://images.pokemontcg.io/base1/11.png"
+  },
+  {
+    "id": "base1-5",
+    "name": "Clefairy",
+    "dex": 35,
+    "set": "base1",
+    "setName": "Base",
+    "number": "5",
+    "image": "https://images.pokemontcg.io/base1/5.png"
+  },
+  {
+    "id": "base2-1",
+    "name": "Clefable",
+    "dex": 36,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "1",
+    "image": "https://images.pokemontcg.io/base2/1.png"
+  },
+  {
+    "id": "base2-17",
+    "name": "Clefable",
+    "dex": 36,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "17",
+    "image": "https://images.pokemontcg.io/base2/17.png"
+  },
+  {
+    "id": "base1-68",
+    "name": "Vulpix",
+    "dex": 37,
+    "set": "base1",
+    "setName": "Base",
+    "number": "68",
+    "image": "https://images.pokemontcg.io/base1/68.png"
+  },
+  {
+    "id": "base1-12",
+    "name": "Ninetales",
+    "dex": 38,
+    "set": "base1",
+    "setName": "Base",
+    "number": "12",
+    "image": "https://images.pokemontcg.io/base1/12.png"
+  },
+  {
+    "id": "base2-54",
+    "name": "Jigglypuff",
+    "dex": 39,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "54",
+    "image": "https://images.pokemontcg.io/base2/54.png"
+  },
+  {
+    "id": "base2-16",
+    "name": "Wigglytuff",
+    "dex": 40,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "16",
+    "image": "https://images.pokemontcg.io/base2/16.png"
+  },
+  {
+    "id": "base2-32",
+    "name": "Wigglytuff",
+    "dex": 40,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "32",
+    "image": "https://images.pokemontcg.io/base2/32.png"
+  },
+  {
+    "id": "base3-57",
+    "name": "Zubat",
+    "dex": 41,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "57",
+    "image": "https://images.pokemontcg.io/base3/57.png"
+  },
+  {
+    "id": "base3-34",
+    "name": "Golbat",
+    "dex": 42,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "34",
+    "image": "https://images.pokemontcg.io/base3/34.png"
+  },
+  {
+    "id": "base2-58",
+    "name": "Oddish",
+    "dex": 43,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "58",
+    "image": "https://images.pokemontcg.io/base2/58.png"
+  },
+  {
+    "id": "base2-37",
+    "name": "Gloom",
+    "dex": 44,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "37",
+    "image": "https://images.pokemontcg.io/base2/37.png"
+  },
+  {
+    "id": "base2-15",
+    "name": "Vileplume",
+    "dex": 45,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "15",
+    "image": "https://images.pokemontcg.io/base2/15.png"
+  },
+  {
+    "id": "base2-31",
+    "name": "Vileplume",
+    "dex": 45,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "31",
+    "image": "https://images.pokemontcg.io/base2/31.png"
+  },
+  {
+    "id": "base2-59",
+    "name": "Paras",
+    "dex": 46,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "59",
+    "image": "https://images.pokemontcg.io/base2/59.png"
+  },
+  {
+    "id": "base2-41",
+    "name": "Parasect",
+    "dex": 47,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "41",
+    "image": "https://images.pokemontcg.io/base2/41.png"
+  },
+  {
+    "id": "base2-63",
+    "name": "Venonat",
+    "dex": 48,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "63",
+    "image": "https://images.pokemontcg.io/base2/63.png"
+  },
+  {
+    "id": "base2-13",
+    "name": "Venomoth",
+    "dex": 49,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "13",
+    "image": "https://images.pokemontcg.io/base2/13.png"
+  },
+  {
+    "id": "base2-29",
+    "name": "Venomoth",
+    "dex": 49,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "29",
+    "image": "https://images.pokemontcg.io/base2/29.png"
+  },
+  {
+    "id": "base1-47",
+    "name": "Diglett",
+    "dex": 50,
+    "set": "base1",
+    "setName": "Base",
+    "number": "47",
+    "image": "https://images.pokemontcg.io/base1/47.png"
+  },
+  {
+    "id": "base1-19",
+    "name": "Dugtrio",
+    "dex": 51,
+    "set": "base1",
+    "setName": "Base",
+    "number": "19",
+    "image": "https://images.pokemontcg.io/base1/19.png"
+  },
+  {
+    "id": "base2-56",
+    "name": "Meowth",
+    "dex": 52,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "56",
+    "image": "https://images.pokemontcg.io/base2/56.png"
+  },
+  {
+    "id": "base2-42",
+    "name": "Persian",
+    "dex": 53,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "42",
+    "image": "https://images.pokemontcg.io/base2/42.png"
+  },
+  {
+    "id": "base3-53",
+    "name": "Psyduck",
+    "dex": 54,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "53",
+    "image": "https://images.pokemontcg.io/base3/53.png"
+  },
+  {
+    "id": "base3-35",
+    "name": "Golduck",
+    "dex": 55,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "35",
+    "image": "https://images.pokemontcg.io/base3/35.png"
+  },
+  {
+    "id": "base2-55",
+    "name": "Mankey",
+    "dex": 56,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "55",
+    "image": "https://images.pokemontcg.io/base2/55.png"
+  },
+  {
+    "id": "base2-43",
+    "name": "Primeape",
+    "dex": 57,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "43",
+    "image": "https://images.pokemontcg.io/base2/43.png"
+  },
+  {
+    "id": "base1-28",
+    "name": "Growlithe",
+    "dex": 58,
+    "set": "base1",
+    "setName": "Base",
+    "number": "28",
+    "image": "https://images.pokemontcg.io/base1/28.png"
+  },
+  {
+    "id": "base1-23",
+    "name": "Arcanine",
+    "dex": 59,
+    "set": "base1",
+    "setName": "Base",
+    "number": "23",
+    "image": "https://images.pokemontcg.io/base1/23.png"
+  },
+  {
+    "id": "base1-59",
+    "name": "Poliwag",
+    "dex": 60,
+    "set": "base1",
+    "setName": "Base",
+    "number": "59",
+    "image": "https://images.pokemontcg.io/base1/59.png"
+  },
+  {
+    "id": "base1-38",
+    "name": "Poliwhirl",
+    "dex": 61,
+    "set": "base1",
+    "setName": "Base",
+    "number": "38",
+    "image": "https://images.pokemontcg.io/base1/38.png"
+  },
+  {
+    "id": "base1-13",
+    "name": "Poliwrath",
+    "dex": 62,
+    "set": "base1",
+    "setName": "Base",
+    "number": "13",
+    "image": "https://images.pokemontcg.io/base1/13.png"
+  },
+  {
+    "id": "base1-43",
+    "name": "Abra",
+    "dex": 63,
+    "set": "base1",
+    "setName": "Base",
+    "number": "43",
+    "image": "https://images.pokemontcg.io/base1/43.png"
+  },
+  {
+    "id": "base1-32",
+    "name": "Kadabra",
+    "dex": 64,
+    "set": "base1",
+    "setName": "Base",
+    "number": "32",
+    "image": "https://images.pokemontcg.io/base1/32.png"
+  },
+  {
+    "id": "base1-1",
+    "name": "Alakazam",
+    "dex": 65,
+    "set": "base1",
+    "setName": "Base",
+    "number": "1",
+    "image": "https://images.pokemontcg.io/base1/1.png"
+  },
+  {
+    "id": "base1-52",
+    "name": "Machop",
+    "dex": 66,
+    "set": "base1",
+    "setName": "Base",
+    "number": "52",
+    "image": "https://images.pokemontcg.io/base1/52.png"
+  },
+  {
+    "id": "base1-34",
+    "name": "Machoke",
+    "dex": 67,
+    "set": "base1",
+    "setName": "Base",
+    "number": "34",
+    "image": "https://images.pokemontcg.io/base1/34.png"
+  },
+  {
+    "id": "base1-8",
+    "name": "Machamp",
+    "dex": 68,
+    "set": "base1",
+    "setName": "Base",
+    "number": "8",
+    "image": "https://images.pokemontcg.io/base1/8.png"
+  },
+  {
+    "id": "base2-49",
+    "name": "Bellsprout",
+    "dex": 69,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "49",
+    "image": "https://images.pokemontcg.io/base2/49.png"
+  },
+  {
+    "id": "base2-48",
+    "name": "Weepinbell",
+    "dex": 70,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "48",
+    "image": "https://images.pokemontcg.io/base2/48.png"
+  },
+  {
+    "id": "base2-14",
+    "name": "Victreebel",
+    "dex": 71,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "14",
+    "image": "https://images.pokemontcg.io/base2/14.png"
+  },
+  {
+    "id": "base2-30",
+    "name": "Victreebel",
+    "dex": 71,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "30",
+    "image": "https://images.pokemontcg.io/base2/30.png"
+  },
+  {
+    "id": "base3-56",
+    "name": "Tentacool",
+    "dex": 72,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "56",
+    "image": "https://images.pokemontcg.io/base3/56.png"
+  },
+  {
+    "id": "base3-44",
+    "name": "Tentacruel",
+    "dex": 73,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "44",
+    "image": "https://images.pokemontcg.io/base3/44.png"
+  },
+  {
+    "id": "base3-47",
+    "name": "Geodude",
+    "dex": 74,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "47",
+    "image": "https://images.pokemontcg.io/base3/47.png"
+  },
+  {
+    "id": "base3-37",
+    "name": "Graveler",
+    "dex": 75,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "37",
+    "image": "https://images.pokemontcg.io/base3/37.png"
+  },
+  {
+    "id": "base3-36",
+    "name": "Golem",
+    "dex": 76,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "36",
+    "image": "https://images.pokemontcg.io/base3/36.png"
+  },
+  {
+    "id": "base1-60",
+    "name": "Ponyta",
+    "dex": 77,
+    "set": "base1",
+    "setName": "Base",
+    "number": "60",
+    "image": "https://images.pokemontcg.io/base1/60.png"
+  },
+  {
+    "id": "base2-44",
+    "name": "Rapidash",
+    "dex": 78,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "44",
+    "image": "https://images.pokemontcg.io/base2/44.png"
+  },
+  {
+    "id": "base3-55",
+    "name": "Slowpoke",
+    "dex": 79,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "55",
+    "image": "https://images.pokemontcg.io/base3/55.png"
+  },
+  {
+    "id": "base3-43",
+    "name": "Slowbro",
+    "dex": 80,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "43",
+    "image": "https://images.pokemontcg.io/base3/43.png"
+  },
+  {
+    "id": "base1-53",
+    "name": "Magnemite",
+    "dex": 81,
+    "set": "base1",
+    "setName": "Base",
+    "number": "53",
+    "image": "https://images.pokemontcg.io/base1/53.png"
+  },
+  {
+    "id": "base1-9",
+    "name": "Magneton",
+    "dex": 82,
+    "set": "base1",
+    "setName": "Base",
+    "number": "9",
+    "image": "https://images.pokemontcg.io/base1/9.png"
+  },
+  {
+    "id": "base3-11",
+    "name": "Magneton",
+    "dex": 82,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "11",
+    "image": "https://images.pokemontcg.io/base3/11.png"
+  },
+  {
+    "id": "base3-26",
+    "name": "Magneton",
+    "dex": 82,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "26",
+    "image": "https://images.pokemontcg.io/base3/26.png"
+  },
+  {
+    "id": "base1-27",
+    "name": "Farfetch'd",
+    "dex": 83,
+    "set": "base1",
+    "setName": "Base",
+    "number": "27",
+    "image": "https://images.pokemontcg.io/base1/27.png"
+  },
+  {
+    "id": "base1-48",
+    "name": "Doduo",
+    "dex": 84,
+    "set": "base1",
+    "setName": "Base",
+    "number": "48",
+    "image": "https://images.pokemontcg.io/base1/48.png"
+  },
+  {
+    "id": "base2-34",
+    "name": "Dodrio",
+    "dex": 85,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "34",
+    "image": "https://images.pokemontcg.io/base2/34.png"
+  },
+  {
+    "id": "base1-41",
+    "name": "Seel",
+    "dex": 86,
+    "set": "base1",
+    "setName": "Base",
+    "number": "41",
+    "image": "https://images.pokemontcg.io/base1/41.png"
+  },
+  {
+    "id": "base1-25",
+    "name": "Dewgong",
+    "dex": 87,
+    "set": "base1",
+    "setName": "Base",
+    "number": "25",
+    "image": "https://images.pokemontcg.io/base1/25.png"
+  },
+  {
+    "id": "base3-48",
+    "name": "Grimer",
+    "dex": 88,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "48",
+    "image": "https://images.pokemontcg.io/base3/48.png"
+  },
+  {
+    "id": "base3-13",
+    "name": "Muk",
+    "dex": 89,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "13",
+    "image": "https://images.pokemontcg.io/base3/13.png"
+  },
+  {
+    "id": "base3-28",
+    "name": "Muk",
+    "dex": 89,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "28",
+    "image": "https://images.pokemontcg.io/base3/28.png"
+  },
+  {
+    "id": "base3-54",
+    "name": "Shellder",
+    "dex": 90,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "54",
+    "image": "https://images.pokemontcg.io/base3/54.png"
+  },
+  {
+    "id": "base3-32",
+    "name": "Cloyster",
+    "dex": 91,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "32",
+    "image": "https://images.pokemontcg.io/base3/32.png"
+  },
+  {
+    "id": "base1-50",
+    "name": "Gastly",
+    "dex": 92,
+    "set": "base1",
+    "setName": "Base",
+    "number": "50",
+    "image": "https://images.pokemontcg.io/base1/50.png"
+  },
+  {
+    "id": "base3-33",
+    "name": "Gastly",
+    "dex": 92,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "33",
+    "image": "https://images.pokemontcg.io/base3/33.png"
+  },
+  {
+    "id": "base1-29",
+    "name": "Haunter",
+    "dex": 93,
+    "set": "base1",
+    "setName": "Base",
+    "number": "29",
+    "image": "https://images.pokemontcg.io/base1/29.png"
+  },
+  {
+    "id": "base3-6",
+    "name": "Haunter",
+    "dex": 93,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "6",
+    "image": "https://images.pokemontcg.io/base3/6.png"
+  },
+  {
+    "id": "base3-21",
+    "name": "Haunter",
+    "dex": 93,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "21",
+    "image": "https://images.pokemontcg.io/base3/21.png"
+  },
+  {
+    "id": "base3-5",
+    "name": "Gengar",
+    "dex": 94,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "5",
+    "image": "https://images.pokemontcg.io/base3/5.png"
+  },
+  {
+    "id": "base3-20",
+    "name": "Gengar",
+    "dex": 94,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "20",
+    "image": "https://images.pokemontcg.io/base3/20.png"
+  },
+  {
+    "id": "base1-56",
+    "name": "Onix",
+    "dex": 95,
+    "set": "base1",
+    "setName": "Base",
+    "number": "56",
+    "image": "https://images.pokemontcg.io/base1/56.png"
+  },
+  {
+    "id": "base1-49",
+    "name": "Drowzee",
+    "dex": 96,
+    "set": "base1",
+    "setName": "Base",
+    "number": "49",
+    "image": "https://images.pokemontcg.io/base1/49.png"
+  },
+  {
+    "id": "base3-8",
+    "name": "Hypno",
+    "dex": 97,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "8",
+    "image": "https://images.pokemontcg.io/base3/8.png"
+  },
+  {
+    "id": "base3-23",
+    "name": "Hypno",
+    "dex": 97,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "23",
+    "image": "https://images.pokemontcg.io/base3/23.png"
+  },
+  {
+    "id": "base3-51",
+    "name": "Krabby",
+    "dex": 98,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "51",
+    "image": "https://images.pokemontcg.io/base3/51.png"
+  },
+  {
+    "id": "base3-38",
+    "name": "Kingler",
+    "dex": 99,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "38",
+    "image": "https://images.pokemontcg.io/base3/38.png"
+  },
+  {
+    "id": "base1-67",
+    "name": "Voltorb",
+    "dex": 100,
+    "set": "base1",
+    "setName": "Base",
+    "number": "67",
+    "image": "https://images.pokemontcg.io/base1/67.png"
+  },
+  {
+    "id": "base1-21",
+    "name": "Electrode",
+    "dex": 101,
+    "set": "base1",
+    "setName": "Base",
+    "number": "21",
+    "image": "https://images.pokemontcg.io/base1/21.png"
+  },
+  {
+    "id": "base2-2",
+    "name": "Electrode",
+    "dex": 101,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "2",
+    "image": "https://images.pokemontcg.io/base2/2.png"
+  },
+  {
+    "id": "base2-18",
+    "name": "Electrode",
+    "dex": 101,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "18",
+    "image": "https://images.pokemontcg.io/base2/18.png"
+  },
+  {
+    "id": "base2-52",
+    "name": "Exeggcute",
+    "dex": 102,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "52",
+    "image": "https://images.pokemontcg.io/base2/52.png"
+  },
+  {
+    "id": "base2-35",
+    "name": "Exeggutor",
+    "dex": 103,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "35",
+    "image": "https://images.pokemontcg.io/base2/35.png"
+  },
+  {
+    "id": "base2-50",
+    "name": "Cubone",
+    "dex": 104,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "50",
+    "image": "https://images.pokemontcg.io/base2/50.png"
+  },
+  {
+    "id": "base2-39",
+    "name": "Marowak",
+    "dex": 105,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "39",
+    "image": "https://images.pokemontcg.io/base2/39.png"
+  },
+  {
+    "id": "base3-7",
+    "name": "Hitmonlee",
+    "dex": 106,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "7",
+    "image": "https://images.pokemontcg.io/base3/7.png"
+  },
+  {
+    "id": "base3-22",
+    "name": "Hitmonlee",
+    "dex": 106,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "22",
+    "image": "https://images.pokemontcg.io/base3/22.png"
+  },
+  {
+    "id": "base1-7",
+    "name": "Hitmonchan",
+    "dex": 107,
+    "set": "base1",
+    "setName": "Base",
+    "number": "7",
+    "image": "https://images.pokemontcg.io/base1/7.png"
+  },
+  {
+    "id": "base2-38",
+    "name": "Lickitung",
+    "dex": 108,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "38",
+    "image": "https://images.pokemontcg.io/base2/38.png"
+  },
+  {
+    "id": "base1-51",
+    "name": "Koffing",
+    "dex": 109,
+    "set": "base1",
+    "setName": "Base",
+    "number": "51",
+    "image": "https://images.pokemontcg.io/base1/51.png"
+  },
+  {
+    "id": "base3-45",
+    "name": "Weezing",
+    "dex": 110,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "45",
+    "image": "https://images.pokemontcg.io/base3/45.png"
+  },
+  {
+    "id": "base2-61",
+    "name": "Rhyhorn",
+    "dex": 111,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "61",
+    "image": "https://images.pokemontcg.io/base2/61.png"
+  },
+  {
+    "id": "base2-45",
+    "name": "Rhydon",
+    "dex": 112,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "45",
+    "image": "https://images.pokemontcg.io/base2/45.png"
+  },
+  {
+    "id": "base1-3",
+    "name": "Chansey",
+    "dex": 113,
+    "set": "base1",
+    "setName": "Base",
+    "number": "3",
+    "image": "https://images.pokemontcg.io/base1/3.png"
+  },
+  {
+    "id": "base1-66",
+    "name": "Tangela",
+    "dex": 114,
+    "set": "base1",
+    "setName": "Base",
+    "number": "66",
+    "image": "https://images.pokemontcg.io/base1/66.png"
+  },
+  {
+    "id": "base2-5",
+    "name": "Kangaskhan",
+    "dex": 115,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "5",
+    "image": "https://images.pokemontcg.io/base2/5.png"
+  },
+  {
+    "id": "base2-21",
+    "name": "Kangaskhan",
+    "dex": 115,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "21",
+    "image": "https://images.pokemontcg.io/base2/21.png"
+  },
+  {
+    "id": "base3-49",
+    "name": "Horsea",
+    "dex": 116,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "49",
+    "image": "https://images.pokemontcg.io/base3/49.png"
+  },
+  {
+    "id": "base3-42",
+    "name": "Seadra",
+    "dex": 117,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "42",
+    "image": "https://images.pokemontcg.io/base3/42.png"
+  },
+  {
+    "id": "base2-53",
+    "name": "Goldeen",
+    "dex": 118,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "53",
+    "image": "https://images.pokemontcg.io/base2/53.png"
+  },
+  {
+    "id": "base2-46",
+    "name": "Seaking",
+    "dex": 119,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "46",
+    "image": "https://images.pokemontcg.io/base2/46.png"
+  },
+  {
+    "id": "base1-65",
+    "name": "Staryu",
+    "dex": 120,
+    "set": "base1",
+    "setName": "Base",
+    "number": "65",
+    "image": "https://images.pokemontcg.io/base1/65.png"
+  },
+  {
+    "id": "base1-64",
+    "name": "Starmie",
+    "dex": 121,
+    "set": "base1",
+    "setName": "Base",
+    "number": "64",
+    "image": "https://images.pokemontcg.io/base1/64.png"
+  },
+  {
+    "id": "base2-6",
+    "name": "Mr. Mime",
+    "dex": 122,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "6",
+    "image": "https://images.pokemontcg.io/base2/6.png"
+  },
+  {
+    "id": "base2-22",
+    "name": "Mr. Mime",
+    "dex": 122,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "22",
+    "image": "https://images.pokemontcg.io/base2/22.png"
+  },
+  {
+    "id": "base2-10",
+    "name": "Scyther",
+    "dex": 123,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "10",
+    "image": "https://images.pokemontcg.io/base2/10.png"
+  },
+  {
+    "id": "base2-26",
+    "name": "Scyther",
+    "dex": 123,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "26",
+    "image": "https://images.pokemontcg.io/base2/26.png"
+  },
+  {
+    "id": "base1-31",
+    "name": "Jynx",
+    "dex": 124,
+    "set": "base1",
+    "setName": "Base",
+    "number": "31",
+    "image": "https://images.pokemontcg.io/base1/31.png"
+  },
+  {
+    "id": "base1-20",
+    "name": "Electabuzz",
+    "dex": 125,
+    "set": "base1",
+    "setName": "Base",
+    "number": "20",
+    "image": "https://images.pokemontcg.io/base1/20.png"
+  },
+  {
+    "id": "base1-36",
+    "name": "Magmar",
+    "dex": 126,
+    "set": "base1",
+    "setName": "Base",
+    "number": "36",
+    "image": "https://images.pokemontcg.io/base1/36.png"
+  },
+  {
+    "id": "base3-39",
+    "name": "Magmar",
+    "dex": 126,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "39",
+    "image": "https://images.pokemontcg.io/base3/39.png"
+  },
+  {
+    "id": "base2-9",
+    "name": "Pinsir",
+    "dex": 127,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "9",
+    "image": "https://images.pokemontcg.io/base2/9.png"
+  },
+  {
+    "id": "base2-25",
+    "name": "Pinsir",
+    "dex": 127,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "25",
+    "image": "https://images.pokemontcg.io/base2/25.png"
+  },
+  {
+    "id": "base2-47",
+    "name": "Tauros",
+    "dex": 128,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "47",
+    "image": "https://images.pokemontcg.io/base2/47.png"
+  },
+  {
+    "id": "base1-35",
+    "name": "Magikarp",
+    "dex": 129,
+    "set": "base1",
+    "setName": "Base",
+    "number": "35",
+    "image": "https://images.pokemontcg.io/base1/35.png"
+  },
+  {
+    "id": "base1-6",
+    "name": "Gyarados",
+    "dex": 130,
+    "set": "base1",
+    "setName": "Base",
+    "number": "6",
+    "image": "https://images.pokemontcg.io/base1/6.png"
+  },
+  {
+    "id": "base3-10",
+    "name": "Lapras",
+    "dex": 131,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "10",
+    "image": "https://images.pokemontcg.io/base3/10.png"
+  },
+  {
+    "id": "base3-25",
+    "name": "Lapras",
+    "dex": 131,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "25",
+    "image": "https://images.pokemontcg.io/base3/25.png"
+  },
+  {
+    "id": "base3-3",
+    "name": "Ditto",
+    "dex": 132,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "3",
+    "image": "https://images.pokemontcg.io/base3/3.png"
+  },
+  {
+    "id": "base3-18",
+    "name": "Ditto",
+    "dex": 132,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "18",
+    "image": "https://images.pokemontcg.io/base3/18.png"
+  },
+  {
+    "id": "base2-51",
+    "name": "Eevee",
+    "dex": 133,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "51",
+    "image": "https://images.pokemontcg.io/base2/51.png"
+  },
+  {
+    "id": "base2-12",
+    "name": "Vaporeon",
+    "dex": 134,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "12",
+    "image": "https://images.pokemontcg.io/base2/12.png"
+  },
+  {
+    "id": "base2-28",
+    "name": "Vaporeon",
+    "dex": 134,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "28",
+    "image": "https://images.pokemontcg.io/base2/28.png"
+  },
+  {
+    "id": "base2-4",
+    "name": "Jolteon",
+    "dex": 135,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "4",
+    "image": "https://images.pokemontcg.io/base2/4.png"
+  },
+  {
+    "id": "base2-20",
+    "name": "Jolteon",
+    "dex": 135,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "20",
+    "image": "https://images.pokemontcg.io/base2/20.png"
+  },
+  {
+    "id": "base2-3",
+    "name": "Flareon",
+    "dex": 136,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "3",
+    "image": "https://images.pokemontcg.io/base2/3.png"
+  },
+  {
+    "id": "base2-19",
+    "name": "Flareon",
+    "dex": 136,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "19",
+    "image": "https://images.pokemontcg.io/base2/19.png"
+  },
+  {
+    "id": "base1-39",
+    "name": "Porygon",
+    "dex": 137,
+    "set": "base1",
+    "setName": "Base",
+    "number": "39",
+    "image": "https://images.pokemontcg.io/base1/39.png"
+  },
+  {
+    "id": "base3-52",
+    "name": "Omanyte",
+    "dex": 138,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "52",
+    "image": "https://images.pokemontcg.io/base3/52.png"
+  },
+  {
+    "id": "base3-40",
+    "name": "Omastar",
+    "dex": 139,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "40",
+    "image": "https://images.pokemontcg.io/base3/40.png"
+  },
+  {
+    "id": "base3-50",
+    "name": "Kabuto",
+    "dex": 140,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "50",
+    "image": "https://images.pokemontcg.io/base3/50.png"
+  },
+  {
+    "id": "base3-9",
+    "name": "Kabutops",
+    "dex": 141,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "9",
+    "image": "https://images.pokemontcg.io/base3/9.png"
+  },
+  {
+    "id": "base3-24",
+    "name": "Kabutops",
+    "dex": 141,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "24",
+    "image": "https://images.pokemontcg.io/base3/24.png"
+  },
+  {
+    "id": "base3-1",
+    "name": "Aerodactyl",
+    "dex": 142,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "1",
+    "image": "https://images.pokemontcg.io/base3/1.png"
+  },
+  {
+    "id": "base3-16",
+    "name": "Aerodactyl",
+    "dex": 142,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "16",
+    "image": "https://images.pokemontcg.io/base3/16.png"
+  },
+  {
+    "id": "base2-11",
+    "name": "Snorlax",
+    "dex": 143,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "11",
+    "image": "https://images.pokemontcg.io/base2/11.png"
+  },
+  {
+    "id": "base2-27",
+    "name": "Snorlax",
+    "dex": 143,
+    "set": "base2",
+    "setName": "Jungle",
+    "number": "27",
+    "image": "https://images.pokemontcg.io/base2/27.png"
+  },
+  {
+    "id": "base3-2",
+    "name": "Articuno",
+    "dex": 144,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "2",
+    "image": "https://images.pokemontcg.io/base3/2.png"
+  },
+  {
+    "id": "base3-17",
+    "name": "Articuno",
+    "dex": 144,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "17",
+    "image": "https://images.pokemontcg.io/base3/17.png"
+  },
+  {
+    "id": "base1-16",
+    "name": "Zapdos",
+    "dex": 145,
+    "set": "base1",
+    "setName": "Base",
+    "number": "16",
+    "image": "https://images.pokemontcg.io/base1/16.png"
+  },
+  {
+    "id": "base3-15",
+    "name": "Zapdos",
+    "dex": 145,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "15",
+    "image": "https://images.pokemontcg.io/base3/15.png"
+  },
+  {
+    "id": "base3-30",
+    "name": "Zapdos",
+    "dex": 145,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "30",
+    "image": "https://images.pokemontcg.io/base3/30.png"
+  },
+  {
+    "id": "base3-12",
+    "name": "Moltres",
+    "dex": 146,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "12",
+    "image": "https://images.pokemontcg.io/base3/12.png"
+  },
+  {
+    "id": "base3-27",
+    "name": "Moltres",
+    "dex": 146,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "27",
+    "image": "https://images.pokemontcg.io/base3/27.png"
+  },
+  {
+    "id": "base1-26",
+    "name": "Dratini",
+    "dex": 147,
+    "set": "base1",
+    "setName": "Base",
+    "number": "26",
+    "image": "https://images.pokemontcg.io/base1/26.png"
+  },
+  {
+    "id": "base1-18",
+    "name": "Dragonair",
+    "dex": 148,
+    "set": "base1",
+    "setName": "Base",
+    "number": "18",
+    "image": "https://images.pokemontcg.io/base1/18.png"
+  },
+  {
+    "id": "base3-4",
+    "name": "Dragonite",
+    "dex": 149,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "4",
+    "image": "https://images.pokemontcg.io/base3/4.png"
+  },
+  {
+    "id": "base3-19",
+    "name": "Dragonite",
+    "dex": 149,
+    "set": "base3",
+    "setName": "Fossil",
+    "number": "19",
+    "image": "https://images.pokemontcg.io/base3/19.png"
+  },
+  {
+    "id": "base1-10",
+    "name": "Mewtwo",
+    "dex": 150,
+    "set": "base1",
+    "setName": "Base",
+    "number": "10",
+    "image": "https://images.pokemontcg.io/base1/10.png"
+  }
+]
