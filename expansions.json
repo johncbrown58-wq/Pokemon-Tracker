@@ -1971,6 +1971,15 @@
     "image": "https://images.pokemontcg.io/gym2/78.png"
   },
   {
+    "id": "gym2-79",
+    "name": "Koga's Koffing",
+    "dex": 109,
+    "set": "gym2",
+    "setName": "Gym Challenge",
+    "number": "79",
+    "image": "https://images.pokemontcg.io/gym2/79.png"
+  },
+  {
     "id": "gym2-80",
     "name": "Koga's Pidgey",
     "dex": 16,
