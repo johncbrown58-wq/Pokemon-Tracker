@@ -1,17 +1,27 @@
 # Pokémon Card Tracker
 
-Offline-friendly collection tracker for Base, Jungle, and Fossil Pokémon cards.
+A mobile-first, offline-capable collection tracker for the Pokémon Base, Jungle, and Fossil sets.
 
 ## Included
-- Pokémon cards only, organized by National Pokédex number
-- Base, Jungle, and Fossil tabs
-- Search by Pokémon name or Dex number
+- 158 Pokémon collectibles: Base 69, Jungle 47, Fossil 42
+- Organized by National Pokédex number
+- Print variants such as 1st Edition, Shadowless, Unlimited, holo/non-holo are treated as the same collectible
+- Search by Pokémon name, National Dex number, or card number
 - All / Missing / Owned filters
+- Set tabs and per-set progress
 - Tap cards to toggle ownership
 - Owned cards display in color; missing cards are grayed out
-- Ownership is saved in browser local storage
-- Service worker and offline-preparation mode
+- Ownership saved locally on the device
+- Bundled card catalog so the app can launch without the network
+- Prepare Offline mode to cache all card images for flea-market use
+- Market Mode for fast searching and one-tap checking
+- JSON Backup / Restore for moving or protecting your collection
+- Installable as a GitHub Pages web app / iPhone Home Screen app
 
-Card metadata and images use the historical Pokémon TCG data repository. The tracker intentionally treats print variants such as 1st Edition, Shadowless, and Unlimited as the same collectible.
+## Offline use
+Open the app while online, then tap **Prepare Offline** before going somewhere with poor or no service. The app stores its catalog locally and caches the card images for offline browsing.
 
-The app is designed to be deployed as a GitHub Pages site and added to an iPhone Home Screen as a web app.
+## Future expansion
+The app structure is ready to add additional sets and separate Trainer/Energy collections later.
+
+Card metadata and images originate from the historical Pokémon TCG data repository.
