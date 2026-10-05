@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Updating Pokémon Tracker…</title>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;text-align:center;padding:40px 20px}
+</style>
+</head>
+<body>
+<h2>Updating Pokémon Tracker…</h2>
+<p>Please wait. Your collection data is being preserved.</p>
+<script>
+(async()=>{
+  try{
+    if("serviceWorker" in navigator){
+      const regs=await navigator.serviceWorker.getRegistrations();
+      await Promise.all(regs.map(r=>r.unregister()));
+    }
+    await new Promise(r=>setTimeout(r,500));
+    location.replace("./?updated=17");
+  }catch(e){
+    document.body.innerHTML="<h2>Update could not finish</h2><p>Please reload this page once.</p>";
+  }
+})();
+</script>
+</body>
+</html>
