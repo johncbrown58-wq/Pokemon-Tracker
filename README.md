@@ -25,3 +25,18 @@ Open the app while online, then tap **Prepare Offline** before going somewhere w
 The app structure is ready to add additional sets and separate Trainer/Energy collections later.
 
 Card metadata and images originate from the historical Pokémon TCG data repository.
+
+## Live pricing setup
+
+Live card prices use PkmnPrices TCGplayer market data. The browser app does **not** send or store your PkmnPrices API key. Instead, `price-proxy.js` is designed to run as a Cloudflare Worker with the key stored as the Worker secret `PKMNPRICES_API_KEY`.
+
+### One-time setup
+
+1. Create a Cloudflare account and create a Worker from the contents of `price-proxy.js`.
+2. Deploy the Worker on its `workers.dev` address.
+3. In the Worker, open **Settings → Variables and Secrets → Add**, choose **Secret**, name it `PKMNPRICES_API_KEY`, and paste your PkmnPrices API key. Deploy again.
+4. Test `https://YOUR-WORKER-URL/health`. It should return JSON showing `"status":"ok"` and `"pricingConfigured":true`.
+5. In Pokémon Tracker → **Price Settings**, enter the Worker URL and save it.
+6. Tap a card. The tracker will request current TCGplayer USD market prices through the Worker.
+
+Do not put the PkmnPrices key in this repository, in `app.js`, or in the tracker settings. If an old key was previously entered into the browser version of the tracker, revoke/replace that key in PkmnPrices after the proxy is working.
