@@ -22,10 +22,10 @@
     <div class="price-setup" id="priceSetup">
       <strong>Pricing setup</strong>
       <p id="priceKeyStatus">No pricing key is saved yet.</p>
-      <p>Add your free/personal PkmnPrices API key to enable live TCGplayer prices. The key is stored only on this device and is never committed to GitHub.</p>
-      <input id="priceApiKey" type="password" placeholder="pk_…" autocomplete="off">
-      <button id="savePriceKey" class="secondary">Save Pricing Key</button>
-      <a href="https://pkmnprices.com/dashboard" target="_blank" rel="noopener">Get / manage API key</a>
+      <p>Live prices are provided through your private Cloudflare pricing proxy. Your PkmnPrices API key stays on the proxy and is never stored in this app.</p>
+      <input id="priceProxyUrl" type="url" placeholder="https://your-worker.your-subdomain.workers.dev" autocomplete="off" inputmode="url">
+      <button id="savePriceKey" class="secondary">Save Pricing Proxy</button>
+      <a href="https://pkmnprices.com/dashboard" target="_blank" rel="noopener">PkmnPrices dashboard</a>
     </div>
   </section>
 </div>
@@ -34,11 +34,11 @@
   <section class="modal-panel settings-panel" role="dialog" aria-modal="true" aria-labelledby="priceSettingsTitle">
     <button id="closePriceSettings" class="modal-close" aria-label="Close pricing settings">×</button>
     <div class="modal-title" id="priceSettingsTitle">Pricing Settings</div>
-    <p class="settings-copy">The tracker uses PkmnPrices for TCGplayer market values in USD. Your API key stays in this browser's local storage.</p>
-    <input id="settingsApiKey" type="password" placeholder="pk_…" autocomplete="off">
-    <button id="saveSettingsKey" class="secondary">Save</button>
-    <button id="clearSettingsKey" class="secondary danger">Clear saved key</button>
+    <p class="settings-copy">The tracker uses PkmnPrices for TCGplayer market values in USD. Your PkmnPrices API key is stored as a secret on your Cloudflare pricing proxy, not in this browser.</p>
+    <input id="settingsProxyUrl" type="url" placeholder="https://your-worker.your-subdomain.workers.dev" autocomplete="off" inputmode="url">
+    <button id="saveSettingsKey" class="secondary">Save Proxy</button>
+    <button id="clearSettingsKey" class="secondary danger">Clear saved proxy</button>
     <a href="https://pkmnprices.com/dashboard" target="_blank" rel="noopener">Open PkmnPrices dashboard</a>
   </section>
 </div>
-<footer id="footer">Swipe left/right to switch set pages. Your collection is saved on this device.</footer><script>(async()=>{try{if(!("serviceWorker"in navigator))return;const KEY="pokemonTrackerForceUpdateV19";if(!localStorage.getItem(KEY)){localStorage.setItem(KEY,"1");const regs=await navigator.serviceWorker.getRegistrations();await Promise.all(regs.map(r=>r.unregister()));location.reload();return}await navigator.serviceWorker.register("./sw.js?v=19",{updateViaCache:"none"});await navigator.serviceWorker.ready}catch(e){}})();</script><script src="app.js?v=17"></script></body></html>
+<footer id="footer">Swipe left/right to switch set pages. Your collection is saved on this device.</footer><script>(async()=>{try{if(!("serviceWorker"in navigator))return;const KEY="pokemonTrackerForceUpdateV19";if(!localStorage.getItem(KEY)){localStorage.setItem(KEY,"1");const regs=await navigator.serviceWorker.getRegistrations();await Promise.all(regs.map(r=>r.unregister()));location.reload();return}await navigator.serviceWorker.register("./sw.js?v=21",{updateViaCache:"none"});await navigator.serviceWorker.ready}catch(e){}})();</script><script src="app.js?v=18"></script></body></html>
