@@ -9,7 +9,7 @@ const IMAGE_SET_SLUG={base1:"base",base2:"jungle",base3:"fossil",base5:"teamrock
 const fallbackImage=c=>"https://www.serebii.net/card/"+IMAGE_SET_SLUG[c.set]+"/"+String(c.number).padStart(3,"0")+".jpg";
 function resizePager(){requestAnimationFrame(()=>{const el=document.querySelectorAll(".page")[page];if(el) $("pagerViewport").style.height=el.scrollHeight+"px"})}
 const setsForPage=p=>p===3?EXTRA_SETS:SETS.filter(s=>s.page===p);
-const GYM_LEADER_ORDER=["Brock","Misty","Lt. Surge","Erika","Koga","Sabrina","Blaine","Rocket","Giovanni"];
+const GYM_LEADER_ORDER=["Brock","Misty","Lt. Surge","Erika","Koga","Sabrina","Blaine","Giovanni","Rocket"];
 const gymLeaderRank=c=>{const m=c.name.match(/^(.+?)'s /);const owner=m?m[1]:"";const i=GYM_LEADER_ORDER.indexOf(owner);return i<0?GYM_LEADER_ORDER.length:i};
 const pageCards=p=>p===3?extraCards:cards.filter(c=>SETS.find(s=>s.id===c.set)?.page===p).sort((a,b)=>p===1?(gymLeaderRank(a)-gymLeaderRank(b)||a.dex-b.dex||SETS.findIndex(s=>s.id===a.set)-SETS.findIndex(s=>s.id===b.set)||Number(a.number)-Number(b.number)):0);
 function stats(){const current=pageCards(page),total=current.length,own=current.filter(c=>owned[key(c)]).length;$("ownedCount").textContent=own;$("totalCount").textContent=total;$("percent").textContent=total?Math.round(own/total*100)+"%":"0%"}
