@@ -32,14 +32,15 @@ async function load(){try{const [a,b,c]=await Promise.all([fetch("./cards.json",
 {leader:"Giovanni",names:["Giovanni","Giovanni's Last Resort"],gym:"Viridian City Gym"}
 ];
 const gymRocketNames=["The Rocket's Training Gym","Minion of Team Rocket","Rocket's Minefield Gym","Rocket's Secret Experiment"];
-const gymLeaderRank=c=>{const group=GYM_TRAINER_GROUPS.findIndex(g=>g.names.includes(c.name));if(group>=0)return group;const gym=GYM_TRAINER_GROUPS.findIndex(g=>g.gym===c.name);if(gym>=0)return gym;if(gymRocketNames.includes(c.name))return 9;return 8};
+const gymLeaderRank=c=>{const group=GYM_TRAINER_GROUPS.findIndex(g=>g.names.includes(c.name));if(group>=0)return group;const gym=GYM_TRAINER_GROUPS.findIndex(g=>g.gym===c.name);if(gym>=0)return gym;if(gymRocketNames.includes(c.name))return 8;return 9};
 const gymLeaderCardType=c=>GYM_TRAINER_GROUPS.some(g=>g.gym===c.name)?1:0;
 extraCards.sort((a,b)=>{
 const ac=a.category==="Energy"?0:1,bc=b.category==="Energy"?0:1;
 if(ac!==bc)return ac-bc;
+const aGym=a.set==="gym1"||a.set==="gym2",bGym=b.set==="gym1"||b.set==="gym2";
+if(aGym&&bGym)return gymLeaderRank(a)-gymLeaderRank(b)||gymLeaderCardType(a)-gymLeaderCardType(b)||EXTRA_ORDER.indexOf(a.set)-EXTRA_ORDER.indexOf(b.set)||Number(a.number)-Number(b.number);
 const as=EXTRA_ORDER.indexOf(a.set),bs=EXTRA_ORDER.indexOf(b.set);
 if(as!==bs)return as-bs;
-if((a.set==="gym1"||a.set==="gym2")&&(b.set==="gym1"||b.set==="gym2"))return gymLeaderRank(a)-gymLeaderRank(b)||gymLeaderCardType(a)-gymLeaderCardType(b)||EXTRA_ORDER.indexOf(a.set)-EXTRA_ORDER.indexOf(b.set)||Number(a.number)-Number(b.number);
 return Number(a.number)-Number(b.number)
 });
 for(let p=0;p<PAGES.length;p++)renderTabs(p);render()}catch(e){console.error(e);for(let p=0;p<PAGES.length;p++)$("status"+p).textContent="Could not load the card catalog. Please refresh the app while online."}}
