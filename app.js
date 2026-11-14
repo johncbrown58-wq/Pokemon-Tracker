@@ -1,5 +1,5 @@
 const SETS=[{id:"base1",name:"Base",page:0},{id:"base2",name:"Jungle",page:0},{id:"base3",name:"Fossil",page:0},{id:"base5",name:"Team Rocket",page:2},{id:"gym2",name:"Gym Challenge",page:1},{id:"gym1",name:"Gym Heroes",page:1}];
-const EXTRA_ORDER=["base1","base2","base3","gym1","gym2","base5"];const EXTRA_SETS=EXTRA_ORDER.map(id=>({...SETS.find(s=>s.id===id),page:2}));
+const EXTRA_ORDER=["base1","base2","fossil","gym1","gym2","base5"];const EXTRA_SETS=EXTRA_ORDER.map(id=>({...SETS.find(s=>s.id===id),page:2}));
 const PAGES=[{title:"Classic Sets",subtitle:"Base • Jungle • Fossil"},{title:"Gym Leaders",subtitle:"Brock • Misty • Lt. Surge • Erika • Koga • Sabrina • Blaine • Giovanni"},{title:"Team Rocket",subtitle:"Team Rocket"},{title:"Trainers & Energy",subtitle:"All six tracked sets"}];
 const OWNED_KEY="pokemonTrackerOwned";const PRICE_PROXY_KEY="pokemonTrackerPriceProxyUrl";const LEGACY_PRICE_KEY="pokemonTrackerPriceApiKey";const PRICE_CACHE_KEY="pokemonTrackerPriceCacheV2";const PRICE_CACHE_TTL=12*60*60*1000;const DEFAULT_PRICE_PROXY="";const CONDITION_ORDER=["Near Mint","Lightly Played","Moderately Played","Heavily Played","Damaged"];const SET_TOTALS={base1:"102",base2:"64",base3:"62",base5:"83",gym1:"132",gym2:"132"};const PRICING_SET_NAMES={base1:"Base Set",base2:"Jungle",base3:"Fossil",base5:"Team Rocket",gym1:"Gym Heroes",gym2:"Gym Challenge"};let priceCache={};try{priceCache=JSON.parse(localStorage.getItem(PRICE_CACHE_KEY)||"{}")||{}}catch{priceCache={}}
 let owned={};try{owned=JSON.parse(localStorage.getItem(OWNED_KEY)||"{}")||{}}catch{owned={}}
@@ -22,24 +22,27 @@ function updatePager(){$("pager").style.transform="translateX(-"+page*(100/PAGES
 function setPage(p){p=Math.max(0,Math.min(PAGES.length-1,p));if(p===page)return;page=p;updatePager();stats();resizePager()}
 function render(){stats();for(let p=0;p<PAGES.length;p++)renderPage(p);updatePager();resizePager()}
 async function load(){try{const [a,b,c]=await Promise.all([fetch("./cards.json",{cache:"no-store"}),fetch("./expansions.json",{cache:"no-store"}),fetch("./extras.json",{cache:"no-store"})]);if(!a.ok||!b.ok||!c.ok)throw Error();cards=[...(await a.json()),...(await b.json())];extraCards=await c.json();if(owned["extra-base5-80"]&&!owned["extra-base5-17"]){owned["extra-base5-17"]=true;delete owned["extra-base5-80"]}if(owned["extra-base5-71"]&&!owned["extra-base5-15"]){owned["extra-base5-15"]=true;delete owned["extra-base5-71"]}if(owned["extra-base5-72"]&&!owned["extra-base5-16"]){owned["extra-base5-16"]=true;delete owned["extra-base5-72"]}if(owned["extra-gym2-100"]&&!owned["extra-gym2-17"]){owned["extra-gym2-17"]=true;delete owned["extra-gym2-100"]}if(owned["extra-gym2-104"]&&!owned["extra-gym2-18"]){owned["extra-gym2-18"]=true;delete owned["extra-gym2-104"]}if(owned["extra-gym2-106"]&&!owned["extra-gym2-19"]){owned["extra-gym2-19"]=true;delete owned["extra-gym2-106"]}if(owned["extra-gym2-110"]&&!owned["extra-gym2-20"]){owned["extra-gym2-20"]=true;delete owned["extra-gym2-110"]}save();cards.sort((a,b)=>a.dex-b.dex||SETS.findIndex(s=>s.id===a.set)-SETS.findIndex(s=>s.id===b.set)||Number(a.number)-Number(b.number));const GYM_TRAINER_GROUPS=[
-{leader:"Brock",names:["Brock","Brock's Training Method","Brock's Protection","Pewter City Gym"]},
-{leader:"Misty",names:["Misty","Misty's Wrath","Misty's Duel","Misty's Wish","Misty's Tears","Cerulean City Gym"]},
-{leader:"Lt. Surge",names:["Lt. Surge","Lt. Surge's Treaty","Lt. Surge's Secret Plan","Vermillion City Gym"]},
-{leader:"Erika",names:["Erika","Erika's Maids","Erika's Perfume","Erika's Kindness","Celadon City Gym"]},
-{leader:"Koga",names:["Koga","Koga's Ninja Trick","Fuchsia City Gym"]},
-{leader:"Sabrina",names:["Sabrina","Sabrina's ESP","Sabrina's Gaze","Sabrina's Psychic Control","Saffron City Gym"]},
-{leader:"Blaine",names:["Blaine","Blaine's Quiz #1","Blaine's Quiz #2","Blaine's Quiz #3","Blaine's Last Resort","Blaine's Gamble","Cinnabar City Gym"]},
-{leader:"Giovanni",names:["Giovanni","Giovanni's Last Resort","Viridian City Gym"]}
+{leader:"Brock",names:["Brock","Brock's Training Method","Brock's Protection"],gym:"Pewter City Gym"},
+{leader:"Misty",names:["Misty","Misty's Wrath","Misty's Duel","Misty's Wish","Misty's Tears"],gym:"Cerulean City Gym"},
+{leader:"Lt. Surge",names:["Lt. Surge","Lt. Surge's Treaty","Lt. Surge's Secret Plan","Secret Mission"],gym:"Vermillion City Gym"},
+{leader:"Erika",names:["Erika","Erika's Maids","Erika's Perfume","Erika's Kindness","Charity","Good Manners"],gym:"Celadon City Gym"},
+{leader:"Koga",names:["Koga","Koga's Ninja Trick"],gym:"Fuchsia City Gym"},
+{leader:"Sabrina",names:["Sabrina","Sabrina's ESP","Sabrina's Gaze","Sabrina's Psychic Control"],gym:"Saffron City Gym"},
+{leader:"Blaine",names:["Blaine","Blaine's Quiz #1","Blaine's Quiz #2","Blaine's Quiz #3","Blaine's Last Resort","Blaine's Gamble","Fervor"],gym:"Cinnabar City Gym"},
+{leader:"Giovanni",names:["Giovanni","Giovanni's Last Resort"],gym:"Viridian City Gym"}
 ];
-const gymTrainerRank=c=>{const i=GYM_TRAINER_GROUPS.findIndex(g=>g.names.includes(c.name));if(i>=0)return i;if(/^The Rocket's |^Rocket's |^Minion of Team Rocket/.test(c.name))return 9;return 8};
+const gymRocketNames=["The Rocket's Training Gym","Minion of Team Rocket","Rocket's Minefield Gym","Rocket's Secret Experiment"];
+const gymLeaderRank=c=>{const group=GYM_TRAINER_GROUPS.findIndex(g=>g.names.includes(c.name));if(group>=0)return group;const gym=GYM_TRAINER_GROUPS.findIndex(g=>g.gym===c.name);if(gym>=0)return gym;if(gymRocketNames.includes(c.name))return 9;return 8};
+const gymLeaderCardType=c=>GYM_TRAINER_GROUPS.some(g=>g.gym===c.name)?1:0;
 extraCards.sort((a,b)=>{
 const ac=a.category==="Energy"?0:1,bc=b.category==="Energy"?0:1;
 if(ac!==bc)return ac-bc;
 const as=EXTRA_ORDER.indexOf(a.set),bs=EXTRA_ORDER.indexOf(b.set);
 if(as!==bs)return as-bs;
-if((a.set==="gym1"||a.set==="gym2")&&(b.set==="gym1"||b.set==="gym2"))return gymTrainerRank(a)-gymTrainerRank(b)||EXTRA_ORDER.indexOf(a.set)-EXTRA_ORDER.indexOf(b.set)||Number(a.number)-Number(b.number);
+if((a.set==="gym1"||a.set==="gym2")&&(b.set==="gym1"||b.set==="gym2"))return gymLeaderRank(a)-gymLeaderRank(b)||gymLeaderCardType(a)-gymLeaderCardType(b)||EXTRA_ORDER.indexOf(a.set)-EXTRA_ORDER.indexOf(b.set)||Number(a.number)-Number(b.number);
 return Number(a.number)-Number(b.number)
-});for(let p=0;p<PAGES.length;p++)renderTabs(p);render()}catch(e){console.error(e);for(let p=0;p<PAGES.length;p++)$("status"+p).textContent="Could not load the card catalog. Please refresh the app while online."}}
+});
+for(let p=0;p<PAGES.length;p++)renderTabs(p);render()}catch(e){console.error(e);for(let p=0;p<PAGES.length;p++)$("status"+p).textContent="Could not load the card catalog. Please refresh the app while online."}}
 async function prepareOffline(){const all=[...cards,...extraCards];if(!all.length)return;$("offlineBtn").textContent="Preparing…";let ok=0;const cache=await caches.open("pokemon-tracker-images-v3");for(const c of all){try{const r=await fetch(c.image,{cache:"reload"});if(r.ok){await cache.put(c.image,r.clone());ok++}}catch{}}$("offlineBtn").textContent="Offline Ready ✓";$("status"+page).textContent="Offline package ready: "+ok+"/"+all.length+" card images cached."}
 function backup(){const payload={app:"Pokemon Card Tracker",version:4,exportedAt:new Date().toISOString(),owned};const blob=new Blob([JSON.stringify(payload,null,2)],{type:"application/json"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="pokemon-tracker-backup.json";a.click();URL.revokeObjectURL(a.href);$("status"+page).textContent="Backup file created."}
 function restore(file){const reader=new FileReader();reader.onload=()=>{try{const data=JSON.parse(reader.result);if(!data.owned||typeof data.owned!=="object")throw Error();owned=data.owned;save();render();$("status"+page).textContent="Collection restored successfully."}catch{$("status"+page).textContent="That backup file could not be restored."}};reader.readAsText(file)}
